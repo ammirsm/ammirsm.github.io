@@ -1,72 +1,58 @@
 /*******************************************************************************
-Slate Theme for GitHub Pages
-by Jason Costello, @jsncostello
-*******************************************************************************/
+ Slate Theme for GitHub Pages
+ by Jason Costello, @jsncostello
+ *******************************************************************************/
 
 @import url(pygment_trac.css);
 
 /*******************************************************************************
-MeyerWeb Reset
-*******************************************************************************/
+ MeyerWeb Reset
+ *******************************************************************************/
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font: inherit;
-  vertical-align: baseline;
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font: inherit;
+	vertical-align: baseline;
 }
 
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-  display: block;
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
 }
 
 ol, ul {
-  list-style: none;
+	list-style: none;
 }
 
 table {
-  border-collapse: collapse;
-  border-spacing: 0;
+	border-collapse: collapse;
+	border-spacing: 0;
 }
-a{
-	text-decoration:none;
-	color:#2980B9;
+a {
+	text-decoration: none;
+	color: #2980B9;
 	transition: color 0.5s;
 	-webkit-transition: color 0.5s;
 }
-p{
-	color:#34495E;
+p {
+	color: #34495E;
 }
-a:hover{
-	color:#3498DB;
+a:hover {
+	color: #3498DB;
 }
 /*******************************************************************************
-Theme Styles
-*******************************************************************************/
+ Theme Styles
+ *******************************************************************************/
 
 body {
-  background: #ECECEC;
-  
-  font-family: 'Myriad Pro', Calibri, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  -webkit-font-smoothing: antialiased;
+	background: #ECECEC;
+	font-family: 'Myriad Pro', Calibri, Helvetica, Arial, sans-serif;
+	line-height: 1.5;
+	-webkit-font-smoothing: antialiased;
 }
-#container{
+#container {
 	height: 439px;
 	margin-top: -217px;
 	width: 800px;
@@ -76,21 +62,21 @@ body {
 	left: 50%;
 	font-family: 'Fredoka One', cursive;
 }
-#twitter{
-	color:#16A085;
+#twitter {
+	color: #16A085;
 }
-#twitter:hover{
-	color:#1ABC9C;
+#twitter:hover {
+	color: #1ABC9C;
 }
-#instagram{
-	color:#D35400;
+#instagram {
+	color: #D35400;
 }
-#instagram:hover{
-	color:#E67E22;
+#instagram:hover {
+	color: #E67E22;
 }
-#github{
-	color:#7F8C8D;
+#github {
+	color: #7F8C8D;
 }
-#github:hover{
-	color:#95A5A6;
+#github:hover {
+	color: #95A5A6;
 }
